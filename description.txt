@@ -1,1 +1,2 @@
 It is a new Wiki page with lot of trick for QA.
+There is a registration and a login.
