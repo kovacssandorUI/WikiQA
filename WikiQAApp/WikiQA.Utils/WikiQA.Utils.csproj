@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="DataAccess\DataccessManager.cs" />
     <Compile Include="DataAccess\DataResult.cs" />
+    <Compile Include="GenericRepos\IRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
