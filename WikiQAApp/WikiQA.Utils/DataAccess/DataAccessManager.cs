@@ -11,7 +11,7 @@ using WikiQA.Helper.Logger;
 
 namespace WikiQA.Utils.DataAccess
 {
-    class DataccessManager : IDisposable
+    public class DataAccessManager : IDisposable
     {
         string connStr;
 
@@ -21,7 +21,7 @@ namespace WikiQA.Utils.DataAccess
             server.Close();
         }
 
-        public DataccessManager(string connStr)
+        public DataAccessManager(string connStr)
         {
             this.connStr = connStr;
             try
